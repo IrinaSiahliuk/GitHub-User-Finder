@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 36px 0px;
+    width: 100%;
+    
+    background-color: #374151;
+}
+
+header img{
+    width: 3%;
+}
+
+#inputName{
+    width: 100%;
+
+    font-size: 24px;
+    outline: none;
+}
+
+.userInfoWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    
+    color: #638cb5;
+    background-color: #454d5b;
+}
+
+.userData{
+    list-style-type: none;
+    font-size: 20px;
+}
